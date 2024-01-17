@@ -367,6 +367,7 @@
           </ul>
         </div>
       </section>
+      <!-- customers sectiom -->
       <section class="customers">
         <div class="container customers-section-container">
           <h2 class="customer-section-header">Customers</h2>
@@ -417,8 +418,10 @@
         </div>
       </section>
     </main>
+    <!-- footer section -->
     <footer class="footer">
       <div class="container footer-container">
+        <!-- logo and description footer -->
         <div class="logo-and-description">
           <a class="logo logo-footer link" href="./index.html"
             >Web<span class="part-of-logo-footer">Studio</span></a
@@ -428,6 +431,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
+        <!-- social media footer -->
         <div class="social-media-part-of-footer">
           <p class="footer-social-media-paragraph">Social media</p>
           <ul class="footer-social-media-list list">
@@ -475,6 +479,7 @@
         </div>
       </div>
     </footer>
+    <!-- modal window section -->
     <div class="modal-window-container is-hidden" data-modal>
       <div class="modal-window">
         <button class="modal-close-button" type="button" data-modal-close>
@@ -482,8 +487,43 @@
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
-      </div>
-    </div>
+        <!-- form section -->
+            <p class="modal-window-form-main-text">
+              Leave your contacts and we will call you back
+            </p>
+            <form class="modal-window-form">
+              <div class="modal-window-form-input-section">
+                <label class="modal-window-form-label"> 
+                  <p class="modal-window-form-input-caption">Name</p>
+                  <input type="text" name="full_name" class="modal-window-input">
+                    <svg width="18" height="18" class="modal-window-input-icon">
+                      <use href="./images/icons.svg#icon-person-vector"></use>
+                    </svg>
+                </label>
+                <label class="modal-window-form-label">
+                  <p class="modal-window-form-input-caption">Phone</p>
+                  <input type="tel" name="phone" class="modal-window-input">
+                </label>
+                <label class="modal-window-form-label">
+                  <p class="modal-window-form-input-caption">E-mail</p>
+                  <input type="email" name="email" class="modal-window-input">
+                </label>
+                <label class="modal-window-form-label">
+                  <p class="modal-window-form-input-caption">Comment</p>
+                  <textarea class="modal-window-input modal-window-input-text-area" placeholder="text input" name="comments">
+                  </textarea>
+                </label>
+              </div>
+              <!-- checkbox section -->
+              <div class="checkbox-and-button-section">
+                <label>
+                  <input class="modal-window-checkox-input" type="checkbox" name="privacy_acceptance">
+                  <span class="modal-window-checkbox-text">I accept the terms and conditions of the <a class="modal-window-checkbox-link" href="">privacy policy</a></span>
+                </label>
+                <!-- button section -->
+                <button type="submit" class="modal-window-button">Send</button>      
+              </div>    
+          </form>
     <script src="./js/modal.js"></script>
   </body>
 </html>
