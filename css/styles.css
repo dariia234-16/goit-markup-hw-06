@@ -578,6 +578,52 @@ kk .section-three-header {
   display: inline-block;
 }
 
+.footer-forms-section {
+  margin-left: 80px;
+}
+
+.footer-form-main-text {
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.footer-subscription-input {
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  outline: transparent;
+  background-color: transparent;
+  color: var(--WHITE, #fff);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+  padding: 8px 0px 8px 16px;
+  margin-right: 24px;
+}
+
+.footer-subscription-button {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background-color: var(--IRIS);
+  border: none;
+  color: var(--WHITE);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
 /* ./PORTOFOLIO.HTML */
 
 /* the list of buttons */
