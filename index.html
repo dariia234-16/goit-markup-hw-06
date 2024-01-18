@@ -480,11 +480,18 @@
         <!-- footer forms section -->
         <div class="footer-forms-section">
           <form class="footer-form">
-              <label>
-                <p class="footer-form-main-text">Subscribe</p>
-                <input type="email" name="subscription_email" placeholder="E-mail" class="footer-subscription-input">
-              </label>
-              <button type="submit" class="footer-subscription-button">Subscribe</button>
+            <label>
+              <p class="footer-form-main-text">Subscribe</p>
+              <input
+                type="email"
+                name="subscription_email"
+                placeholder="E-mail"
+                class="footer-subscription-input"
+              />
+            </label>
+            <button type="submit" class="footer-subscription-button">
+              Subscribe
+            </button>
           </form>
         </div>
       </div>
@@ -498,39 +505,54 @@
           </svg>
         </button>
         <!-- form section -->
-            <p class="modal-window-form-main-text">
-              Leave your contacts and we will call you back
-            </p>
-            <form class="modal-window-form">
-              <div class="modal-window-form-input-section">
-                <label class="modal-window-form-label"> 
-                  <p class="modal-window-form-input-caption">Name</p>
-                  <input type="text" name="full_name" class="modal-window-input">
-                </label>
-                <label class="modal-window-form-label">
-                  <p class="modal-window-form-input-caption">Phone</p>
-                  <input type="tel" name="phone" class="modal-window-input">
-                </label>
-                <label class="modal-window-form-label">
-                  <p class="modal-window-form-input-caption">E-mail</p>
-                  <input type="email" name="email" class="modal-window-input">
-                </label>
-                <label class="modal-window-form-label">
-                  <p class="modal-window-form-input-caption">Comment</p>
-                  <textarea class="modal-window-input modal-window-input-text-area" placeholder="text input" name="comments">
-                  </textarea>
-                </label>
-              </div>
-              <!-- checkbox section -->
-              <div class="checkbox-and-button-section">
-                <label>
-                  <input class="modal-window-checkox-input" type="checkbox" name="privacy_acceptance">
-                  <span class="modal-window-checkbox-text">I accept the terms and conditions of the <a class="modal-window-checkbox-link" href="">privacy policy</a></span>
-                </label>
-                <!-- button section -->
-                <button type="submit" class="modal-window-button">Send</button>      
-              </div>    
-          </form>
+        <p class="modal-window-form-main-text">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-window-form">
+          <div class="modal-window-form-input-section">
+            <label class="modal-window-form-label">
+              <p class="modal-window-form-input-caption">Name</p>
+              <input type="text" name="full_name" class="modal-window-input" />
+            </label>
+            <label class="modal-window-form-label">
+              <p class="modal-window-form-input-caption">Phone</p>
+              <input type="tel" name="phone" class="modal-window-input" />
+            </label>
+            <label class="modal-window-form-label">
+              <p class="modal-window-form-input-caption">E-mail</p>
+              <input type="email" name="email" class="modal-window-input" />
+            </label>
+            <label class="modal-window-form-label">
+              <p class="modal-window-form-input-caption">Comment</p>
+              <textarea
+                class="modal-window-input modal-window-input-text-area"
+                placeholder="text input"
+                name="comments"
+              >
+              </textarea>
+            </label>
+          </div>
+          <!-- checkbox section -->
+          <div class="checkbox-and-button-section">
+            <label>
+              <input
+                class="modal-window-checkox-input"
+                type="checkbox"
+                name="privacy_acceptance"
+              />
+              <span class="modal-window-checkbox-text"
+                >I accept the terms and conditions of the
+                <a class="modal-window-checkbox-link" href=""
+                  >privacy policy</a
+                ></span
+              >
+            </label>
+            <!-- button section -->
+            <button type="submit" class="modal-window-button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
