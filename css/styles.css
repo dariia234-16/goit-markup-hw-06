@@ -932,6 +932,8 @@ kk .section-three-header {
   font-weight: 400;
   line-height: 14px; /* 116.667% */
   letter-spacing: 0.48px;
+  background-color: transparent;
+  padding-left: 38px;
 }
 
 .modal-window-input-icon:focus {
