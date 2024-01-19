@@ -928,11 +928,14 @@ kk .section-three-header {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   font-size: 12px;
   font-weight: 400;
   line-height: 14px; /* 116.667% */
   letter-spacing: 0.48px;
+}
+
+.modal-window-input-icon:focus {
+  fill: var(--IRIS);
 }
 
 .modal-window-input::hover,
@@ -973,6 +976,8 @@ kk .section-three-header {
 
 .modal-window-input-icon {
   position: absolute;
-  top: 8px;
+  top: 50%;
   left: 16px;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
