@@ -1009,3 +1009,9 @@ kk .section-three-header {
   margin-bottom: 24px;
   text-align: center;
 }
+
+.modal-window-checkbox-input:checked .checkbox-span {
+  background-color: var(--OCEAN);
+  border: none;
+  fill: var(--CLOUD);
+}
