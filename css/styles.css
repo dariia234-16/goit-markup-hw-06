@@ -987,3 +987,11 @@ kk .section-three-header {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.checkbox-label {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 1.17;
+  color: var(--LIGHT-SLATE);
+}
