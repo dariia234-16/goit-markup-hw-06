@@ -580,11 +580,11 @@ kk .section-three-header {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-forms-section {
   margin-left: 80px;
-  gap: 24px;
 }
 
 .footer-form-main-text {
